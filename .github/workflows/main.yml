@@ -44,6 +44,10 @@ jobs:
           python-version: ${{ matrix.python-version }}
 
       - name: Run tests
+        env:
+          RANKGUN_TOKEN: ${{ secrets.RANKGUN_TOKEN }}
+          WORKSPACE_ID: ${{ secrets.WORKSPACE_ID }}
+          TESTING_USER_ID: ${{ secrets.TESTING_USER_ID }}
         run: uv run python -m pytest tests
 
       - name: Check typing

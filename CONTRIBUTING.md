@@ -62,6 +62,8 @@ git clone git@github.com:YOUR_NAME/rankgun.git
 cd rankgun
 ```
 
+Copy ``.example.env`` to ``.env`` and set your variables as necessary.
+
 Then, install and activate the environment with:
 
 ```bash
