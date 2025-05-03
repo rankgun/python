@@ -7,4 +7,4 @@
 This package is a sleek simple Python wrapper for the rankgun API.
 
 - **Github repository**: <https://github.com/rankgun/python/>
-- **Documentation** <https://www.rankgun.works/docs/developing/python/>
+- **Documentation** <https://www.rankgun.works/docs/developing/python>
